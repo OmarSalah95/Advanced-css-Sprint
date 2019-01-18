@@ -267,6 +267,7 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
+  padding: 15px auto;
   max-width: 30%;
   background-color: black;
   color: white;
@@ -287,17 +288,19 @@ footer {
 }
 @media screen and (max-width: 500px) {
   .home .walk .walk-text .btn {
+    justify-content: center;
     max-width: 85%;
     background-color: black;
     color: white;
     border-radius: 5px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
-    vertical-align: middle;
     line-height: 1.5rem;
     padding: 1vh;
     transition: 1s;
+    vertical-align: middle;
     margin: auto;
+    height: 5vh;
   }
   .home .walk .walk-text .btn:hover {
     color: black;
