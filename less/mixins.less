@@ -1,1 +1,29 @@
-// Mixins Here
+// Mixins Here\
+// .addanimation(@psuedo; @duration; @transform){
+//     &:~"@psuedo"{
+//         transition: @duration;
+//         transform: @transform;
+//     }
+// }
+
+.btnstyle(@width; @bgc; @tc; @fontsize){
+    max-width: @width;
+    background-color: @bgc;
+    color: @tc;
+    border-radius: 5px;
+    font-size:@fontsize;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.5rem;
+    padding: 1vh;
+    transition: 1s;
+
+    &:hover{
+        color: @bgc;
+        background-color: @tc;
+        border: 1px solid black;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+}
