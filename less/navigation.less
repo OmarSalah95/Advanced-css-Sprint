@@ -3,25 +3,27 @@
     display: flex;
     flex-direction: column;
     text-align:center;
+    justify-content: center;
+    background-color:@nav-bg;
     margin: 0 auto;
-    max-width: 62.5%;
-     
-
+    
     h1{
         font-size: 3.2rem;
         margin: 1vh auto;
     }
-
+    
     nav{
         display: flex;
-        justify-content: space-around;
-        margin: 1vh auto;
+        justify-content: center;
         background: @nav-bg;
-
+        margin:1vh auto;
+          
+        
         a{
             text-decoration: none;
             color: @nav-font;
-            font-size:1.3rem; 
+            font-size:1.3rem;
+            margin: 0 1.5vw; 
         }
     }
 }
