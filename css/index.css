@@ -237,6 +237,7 @@ footer {
 .home .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
+  padding: 50px 60px;
   display: flex;
   justify-content: center;
 }
@@ -272,7 +273,6 @@ footer {
   line-height: 1.5rem;
   padding: 1vh;
   transition: 1s;
-  margin: auto;
 }
 .home .walk .walk-text .btn:hover {
   color: black;
@@ -293,6 +293,7 @@ footer {
     line-height: 1.5rem;
     padding: 1vh;
     transition: 1s;
+    margin: auto;
   }
   .home .walk .walk-text .btn:hover {
     color: black;
